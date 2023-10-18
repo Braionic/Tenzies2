@@ -25,7 +25,7 @@ function App() {
       })
       }
     }
-  }, [tenzies])
+  }, [tenzies, myTimer])
 
   useEffect(() => {
     let firstNum = mynumbers[0].value;
